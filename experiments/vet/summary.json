@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "file": "/root/git/isolated/mycelium/crates/mycelium-std-sys-host/src/lib.rs",
+      "total_items": 7,
+      "non_test_items": 6,
+      "emitted": 2,
+      "gaps": 10,
+      "expressible_pct": 33.33333333333333,
+      "category_counts": {
+        "DeriveSatisfied": 4,
+        "Impl": 2,
+        "Import": 2,
+        "InnerAttr": 1,
+        "TestItem": 1
+      }
+    }
+  ],
+  "totals": {
+    "total_items": 7,
+    "non_test_items": 6,
+    "emitted": 2,
+    "gaps": 10,
+    "expressible_pct": 33.33333333333333,
+    "category_counts": {
+      "DeriveSatisfied": 4,
+      "Impl": 2,
+      "Import": 2,
+      "InnerAttr": 1,
+      "TestItem": 1
+    }
+  },
+  "remap": {
+    "phylum": {
+      "source_crate": "mycelium-std-sys-host",
+      "target_phylum": "std.sys.host"
+    },
+    "nodules": [
+      {
+        "target_nodule": "std.sys.host",
+        "operation": "Keep",
+        "sources": [
+          {
+            "rust_path": "/root/git/isolated/mycelium/crates/mycelium-std-sys-host/src/lib.rs",
+            "rust_span": null,
+            "moved_items": []
+          }
+        ],
+        "rationale": "structure-preserving 1:1 (DN-109 §5.3-B v0 default: every emitted nodule keeps its source file's mod-tree position, no restructuring proposed)",
+        "safety": "Safe",
+        "api_surface_changed": false,
+        "identity_neutral": true,
+        "guarantee": "Declared"
+      }
+    ],
+    "idiom_choices": []
+  }
+}
